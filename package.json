@@ -12,13 +12,18 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.0.3",
+    "@angular/cdk": "^12.2.9",
     "@angular/common": "~9.0.3",
     "@angular/compiler": "~9.0.3",
     "@angular/core": "~9.0.3",
     "@angular/forms": "~9.0.3",
+    "@angular/material": "^12.2.9",
     "@angular/platform-browser": "~9.0.3",
     "@angular/platform-browser-dynamic": "~9.0.3",
     "@angular/router": "~9.0.3",
+    "materialize-css": "^1.0.0",
+    "primeicons": "^4.1.0",
+    "primeng": "^12.2.0",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
