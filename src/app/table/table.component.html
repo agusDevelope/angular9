@@ -1,27 +1,26 @@
+<div class="container">
+<div class="row">
 <table>
     <thead>
       <tr>
-          <th>Name</th>
-          <th>Item Name</th>
-          <th>Item Price</th>
+          <th>ID</th>
+          <th>NOMBRE</th>
+          <th>CURP</th>
+          <th>RFC</th>
+          <th>EDAD</th>
       </tr>
     </thead>
 
-    <tbody>
+    <tbody *ngFor="let p of persona">
       <tr>
-        <td>Alvin</td>
-        <td>Eclair</td>
-        <td>$0.87</td>
+        <td>{{ p.id }}</td>
+        <td>{{ p.nombre }}</td>
+        <td>{{ p.curp }}</td>
+        <td>{{ p.rfc }}</td>
+        <td>{{ p.edad }}</td>
       </tr>
-      <tr>
-        <td>Alan</td>
-        <td>Jellybean</td>
-        <td>$3.76</td>
-      </tr>
-      <tr>
-        <td>Jonathan</td>
-        <td>Lollipop</td>
-        <td>$7.00</td>
-      </tr>
+
     </tbody>
   </table>
+</div>
+</div>

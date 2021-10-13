@@ -8,7 +8,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './login/login.component';
 import { TableComponent } from './table/table.component';
 import { DataService } from './data.service';
-import {HttpClientModule} from '@angular/common/http';
+
+import { TablaDetalleComponent } from './tabla-detalle/tabla-detalle.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import {HttpClientModule} from '@angular/common/http';
     AppComponent,
     LoginComponent,
     TableComponent,
+    TablaDetalleComponent,
 
 
   ],
@@ -23,7 +25,7 @@ import {HttpClientModule} from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HttpClientModule
+   
   ],
   providers: [DataService],
   bootstrap: [AppComponent]

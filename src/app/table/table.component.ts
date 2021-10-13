@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Persona } from '../persona';
+import { PersonaService } from '../persona.service';
 
 @Component({
   selector: 'app-table',
@@ -9,9 +11,17 @@ import { Component, OnInit } from '@angular/core';
 
 export class TableComponent implements OnInit {
 
-  constructor() { }
+  persona:Persona [] = [];
+  getPersona: any;
 
-  ngOnInit(): void {
+  constructor(private personaService: PersonaService ) { }
+
+  ngOnInit() {
+    this.getPersona();
   }
+
+
+  
+
 
 }
