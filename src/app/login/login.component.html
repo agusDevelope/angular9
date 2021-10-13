@@ -5,21 +5,21 @@
     <form id="form" class="col s12">
       <div class="row">
         <div class="input-field col s12">
-          <input  id="User" type="text" class="validate" required>
+          <input  id="User" type="email" class="validate"  required>
           <label for="User">Usuario:</label>
         </div>
       </div>
 
       <div class="row">
         <div class="input-field col s12">
-          <input id="password" type="password" class="validate" required>
+          <input id="password" type="password" class="validate" minlength="8" required>
           <label for="password">Contraseña</label>
         </div>
       </div>
     </form>
     <div class="center-align">
 
-      <button class="btn pulse" type="submit" name="action" routerLink="/home">Inicia sesión
+      <button class="btn " type="submit" name="action" routerLink="/home">Inicia sesión
       </button>
     </div>
   </div>
