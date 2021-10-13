@@ -11,13 +11,13 @@
       </tr>
     </thead>
 
-    <tbody *ngFor="let p of persona">
-      <tr>
-        <td>{{ p.id }}</td>
-        <td>{{ p.nombre }}</td>
-        <td>{{ p.curp }}</td>
-        <td>{{ p.rfc }}</td>
-        <td>{{ p.edad }}</td>
+    <tbody >
+      <tr *ngFor="let d of datos">
+        <td>{{ d.id }}</td>
+        <td>{{ d.nombre }}</td>
+        <td>{{ d.curp }}</td>
+        <td>{{ d.rfc }}</td>
+        <td>{{ d.edad }}</td>
       </tr>
 
     </tbody>
