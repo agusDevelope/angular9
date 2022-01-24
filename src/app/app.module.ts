@@ -12,6 +12,7 @@ import { DataService } from './data.service';
 import { TablaDetalleComponent } from './tabla-detalle/tabla-detalle.component';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
+import { CoursGitComponent } from './cours-git/cours-git.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { NavComponent } from './nav/nav.component';
     TablaDetalleComponent,
     HomeComponent,
     NavComponent,
+    CoursGitComponent,
 
 
   ],
